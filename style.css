@@ -1,0 +1,399 @@
+
+
+/*banner starts here*/
+
+
+
+carousel-inner>.item {
+    position: relative;
+    max-height: 500px;
+}
+.carousel-caption{
+    position: absolute;
+    top: 40%;
+    /*transform: translateY(-50%);*/
+    width: 70%;
+    margin: 0 auto;
+    height: 90px;
+}
+.caption-head{
+    margin: 0!important;
+    padding: 0 0 5px 0!important;
+    font-size: 52px;
+    font-family: Montserrat,sans-serif!important;
+    font-weight: 600;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+}
+.caption-below{
+    margin: 0!important;
+    padding: 0 0 5px 0!important;
+    font-size: 45px;
+    font-family: Montserrat,sans-serif!important;
+    font-weight: 600;
+    /*letter-spacing: 0.1em;*/
+    text-transform: uppercase;
+}
+.glyphicon-chevron-left,.glyphicon-chevron-right{
+    color: #244247
+}
+
+
+
+
+
+
+
+/*Welcome starrts here*/
+
+.welcome{
+    background: #f2f5f9;
+}
+.welcome-inner{
+    width: 100%;
+}
+.heading{
+    color: #1ca1c7;
+    margin: 0px;
+    padding: 35px 0px 15px 0px;
+    /* font-family: Felix Titling; */
+    font-weight: bold;
+}
+.heading-inner{
+    background: #03244c;
+    padding: 5px 0 5px 100px;
+    color: white;
+    margin-right: 5px;
+    /*border-radius: 15px 0 15px 0;*/
+    letter-spacing: 1px;
+}
+.welcome-inner{
+    width: 80%;
+    margin: 0 auto;
+}
+.welcome .welcome-first{
+    padding: 25px 0 15px 30px!important;
+    line-height: 27px;
+    /* font-family: Trebuchet MS!important */
+    font-weight: bold;
+    letter-spacing: 0.5px;
+}
+.welcome .welcome-second{
+    padding: 5px 0 25px 30px !important;
+    line-height: 27px;
+    /* font-family: Trebuchet MS!important; */
+    font-weight: bold;
+    letter-spacing: 0.5px;
+    margin-bottom: 0!important;
+}
+
+
+@media only screen and (max-width: 767px){
+    .heading{
+        font-size: 15px;
+    }
+}
+@media only screen and (max-width: 500px){
+    .heading-inner{
+        padding: 5px 0 5px 50px;
+    }
+    .welcome-inner{
+        width: 90%;
+        margin: 0 auto;
+    }
+}
+
+/*services starts here*/
+
+.services{
+    background: #ececec;
+    position: relative;
+}
+.service-contariner{
+    width: 60%;
+    margin: 0 auto;
+}
+.outer-service{
+    margin-top: 50px;
+}
+.small-img{
+    display: none;
+}
+@media only screen and (max-width: 1150px){
+    .service-contariner{
+        width: 80%;
+        margin: 0 auto;
+    }
+    .service-contariner{
+        width: 100%;
+        margin: 0 auto;
+    }
+}
+.service-contariner::before{
+    content: "";
+    position: absolute;
+    width: 3px;
+    height: 93%;
+    background: #b0afaf;
+    top: 5%;
+    left:50%;
+}
+.border-circle::before{
+    content: "";
+    position: absolute;
+    width: 14px;
+    height: 14px;
+    background: #e9520a;
+    border-radius: 100%;
+    border: 3px solid white;
+    top: 6.5%;
+    left: 50%;
+    margin-left: -5px;
+}
+
+@media only screen and (max-width: 768px){
+    .service-contariner::before{
+        content: "";
+        position: absolute;
+        width: 3px;
+        height: 90%;
+        background: #b0afaf;
+        top: 6%;
+        left:2.5%;
+    }
+    .border-circle::before{
+        content: "";
+        position: absolute;
+        width: 14px;
+        height: 14px;
+        background: #e9520a;
+        border-radius: 100%;
+        border: 3px solid white;
+        top: 10%;
+        left: 2.5%;
+        margin-left: -5px;
+    }
+    .service-content{
+        text-align: left!important;
+    }
+    .serv-outer{
+        padding-bottom: 100px!important;
+    }
+    .resid-img, .business-img, .camp-img, .public-img {
+        display: none;
+    }
+    .small-img{
+        display: block;
+    }
+    .service-inner{
+        padding-top: 100px!important;
+    }
+    /* .service-contariner{
+        width: 70%;
+        margin: 0 0px 0 50px;
+    } */
+}
+.service-content{
+    width: 90%;
+    margin: 0 auto;
+}
+.service-heading{
+    letter-spacing: 3px;
+    color: #e9520a;
+    font-size: 20px;
+    font-family: "Dosis", sans-serif;
+}
+.service-text{
+    letter-spacing: 2px;
+    line-height: 2em;
+    font-size: 15px;
+}
+#resid-outer{
+    margin-bottom: 50px!important;
+    position: relative;
+}
+#busi-outer{
+    margin-bottom: 50px!important;
+    position: relative;
+}
+#camp-outer{
+    margin-bottom: 50px!important;
+    position: relative;
+}
+#wifi-outer{
+    position: relative;
+}
+.serv-outer{
+    padding-bottom: 100px!important;
+}
+.resid-img{
+    padding: 30px 0 0 20px;
+}
+.business-img{
+    padding: 40px 20px 0px 0;
+}
+.camp-img{
+    padding: 30px 0 0 20px;
+}
+.public-img{
+    padding: 40px 20px 20px 0;
+}
+
+
+
+
+
+ /*content plans and pricing*/
+
+.plans{
+    /*background: #f2f5f9;*/
+    /*background-image: url(img/6.jpg);*/
+    background-image: url(img/8.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: right;
+}
+.plans-text{
+    width: 100%;
+    margin: 0 auto;
+    color: white;
+}
+.plans-text >h4{
+    letter-spacing: 3px;
+    color: white;
+    font-size: 20px;
+    font-family: "Dosis", sans-serif;
+    padding: 15px 0 15px 25px;
+}
+.plans-inner{
+    width: 90%;
+    margin: 0 auto;
+}
+.plan-name-outer{
+    background: white;
+}
+.plan-name-inner{
+    padding: 35px 0 0 0;
+    font-weight: bold;
+    letter-spacing: 1px;
+    margin: 0!important;
+}
+.plan-name-img{
+    padding-top: 5px;
+    /* cursor: pointer; */
+}
+.plan-name-img:hover{
+    border-bottom: 1px solid black;
+    cursor: pointer;
+}
+.plan-detail{
+    background: #ffffff;
+    border-top: 2px solid black;
+}
+.plan-details-inner{
+    padding: 15px 0;
+    color: black;
+}
+.plan-details-inner > h3, .plan-details-inner > h4 {
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+.small-book{
+    display: none;
+}
+.plan-margin{
+    margin-bottom: 25px!important;
+}
+
+@media only screen and (max-width:992px){
+    .plan-name-img{
+        padding-top: 0px;
+        width: 30%;
+    }
+    .plan-name-inner{
+        padding: 0px 0;
+        font-weight: bold;
+        letter-spacing: 1px;
+    }
+}
+@media only screen and (max-width:768px){
+    .plan-name-img{
+        padding-top: 0px;
+        width: 40%;
+        display: none;
+    }
+    .plan-name-inner{
+        padding: 25px 0 15px 0;
+        font-weight: bold;
+        letter-spacing: 1px;
+    }
+    .small-book{
+        display: block;
+    }
+    .plan-margin{
+        margin-bottom: 25px!important;
+    }
+    .plans-inner{
+        width: 80%;
+        margin: 0 auto;
+    }
+}
+.all-plans{
+    padding: 0 20px 20px 0;  
+}
+.all-plans > h1> a{
+    color: white;
+}
+.all-plans > h1> a:hover{
+    text-decoration: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

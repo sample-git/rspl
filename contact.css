@@ -1,0 +1,49 @@
+.contactbanner{
+    background-image: url(img/contactbanner2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    max-height: 600px;
+    min-height: 630px;
+    background-position: top;
+    background-attachment: fixed;
+    position: relative;
+}
+.bannercaption{
+    position: absolute;
+    top: 50%;
+    left: 7%;
+}
+.bannercaption > h1{
+    font-size: 50px;
+    font-weight: 600;
+    color: white;
+    margin: 0!important;
+    letter-spacing: 3px;
+}
+.bannercaption > h3{
+    text-align: center;
+    padding: 8px 0;
+    margin-top: 10px!important;
+    background: rgba(75,158,216,.9);
+    color: white;  
+    border-radius: 5px;  
+    font-family: merriweather,Georgia,"Times New Roman",Times,serif;
+    font-weight: 600;
+    font-size: 18px;
+}
+.bannercaption > h3 > a{
+    color: white;
+}
+.bannercaption > h3 > a:hover{
+    text-decoration: none;
+}
+.space{
+    padding: 0 8px;
+}
+.footer-inner>.row>.no-padding>p{
+    color: white;
+}
+
+/* #message{
+    height: 150px;
+} */
